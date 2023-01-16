@@ -161,4 +161,7 @@ display: flex;
     h1{
         font-size: 45px;
     }
+    .landing_btn{
+      flex-direction: column;
+    }
 }
