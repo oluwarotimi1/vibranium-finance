@@ -15,7 +15,11 @@ const Navbar = () => {
     <>
       <div className={styles.nav_container}>
         {/* <a>{LOGO}</a> */}
+<<<<<<< HEAD
         <h3 className={styles.logo}>Vibranium</h3>
+=======
+        <h3>Vibranium</h3>
+>>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
         <div className={`${styles.slidernv} ${state? styles.slidernv_active :null}`}>
         <RxCross2
           className={styles.close_nav}

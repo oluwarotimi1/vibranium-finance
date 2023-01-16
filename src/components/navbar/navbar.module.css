@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* NAV BAR STYLES HERE */
 .nav_container {
   display: flex;
@@ -33,6 +34,11 @@ h3 {
 /* BUY VGC BUTTON HERE */
 .container {
   width: 100px;
+=======
+.container {
+  width: 100px;
+  /* height: 50px; */
+>>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
   background-color: #011627;
   display: flex;
   text-align: center;
@@ -146,16 +152,54 @@ a span:nth-child(4) {
   }
 }
 
+<<<<<<< HEAD
 
+=======
+/* NAV BAR STYLES HERE */
+
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  padding: 0 2rem;
+  margin-right: 2rem;
+  font-size: 18px;
+}
+.icons {
+  color: var(--color-primary);
+}
+.icons a {
+  padding: 0 1rem;
+}
+h3 {
+  color: var(--color-secondary);
+}
+.slidernv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle_btn {
+  display: none;
+}
+.close_nav{
+    display: none;
+}
+>>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
 
 /* MEDIA QUERY */
 @media (max-width: 1024px) {
     .nav_container{
         justify-content: space-between;
     }
+<<<<<<< HEAD
     .logo{
         margin: 1.5rem;
     }
+=======
+>>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
   .toggle_btn {
     font-size: 25px;
     display: block;
@@ -177,7 +221,11 @@ a span:nth-child(4) {
     justify-content: flex-start;
     align-items: center;
     padding: 10px 0;
+<<<<<<< HEAD
     margin-top: -120vh;
+=======
+    margin-top: -110vh;
+>>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
     border-radius: 15px;
     transition: all 0.4s ease-in;
     position: absolute;
