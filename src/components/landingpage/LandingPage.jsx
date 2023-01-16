@@ -14,7 +14,7 @@ const LandingPage = () => {
               <span></span>
               <span></span>
               <span></span>
-              Buy VFC
+              Buy VFC Here
             </a>
           </div>
         <button className={`${styles.btn_container} ${styles.btn_join}`}>Join Newsletter</button>
