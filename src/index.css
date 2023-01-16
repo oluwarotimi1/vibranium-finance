@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
-=======
->>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
 /* D9BCA9 */
 * {
     margin: 0;
@@ -61,11 +58,7 @@
   .btn {
     width: max-content;
     display: inline-block;
-<<<<<<< HEAD
     color: var(--color-secondary);
-=======
-    color: var(--color-primary);
->>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -91,8 +84,4 @@
     .container {
     }
   }
-<<<<<<< HEAD
   
-=======
-  
->>>>>>> d7aaae44b9138b65f10df0ea63b6914b3fab6916
