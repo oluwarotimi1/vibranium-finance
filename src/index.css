@@ -1,0 +1,87 @@
+<<<<<<< Updated upstream
+=======
+/* D9BCA9 */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  :root {
+    --color-bg: #101010;
+    --color-primary: #011627;
+    --color-secondary: #50E3C2;
+    --color-white: #fff;
+    --color-accent: #29211b;
+    --transition: all 400ms ease;
+    --container-width-lg: 87%;
+    --container-width-md: 90%;
+    --container-width-sm: 95%;
+  }
+  /* html {
+    scroll-behavior: smooth;
+  } */
+  body {
+    font-family: 'Oswald', sans-serif;
+    background: var(--color-white);
+    color: var(--color-bg);
+    line-height: 1.7;
+    /* background-image: url(../src/assets/assets_2/bg-texture.png); */
+  }
+  
+  /* MY STYLES ARE HERE */
+  
+  .container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  a {
+    color: var(--color-primary);
+    transition: var(--transition);
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--color-primary);
+  }
+  .btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-secondary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+  }
+  .btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+  }
+  .btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+  
+                                /* MEDIA QUERY FOR SMALL DEVICES */
+  
+  @media (max-width: 500px) {
+    section {
+    }
+    .container {
+    }
+  }
+  

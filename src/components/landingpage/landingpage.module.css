@@ -1,0 +1,164 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    max-width:800px;
+}
+h4{
+    margin: 2rem 0;
+    max-width: 550px;
+    text-align: center;
+}
+.vgc{
+    color:var(--color-secondary);
+}
+.landing_btn{
+display: flex;
+}
+
+/* BUY VGC BUTTON HERE */
+.btn_container {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #011627;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    margin: 1rem;
+  }
+  .container a {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    color: #50e3c2;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+  }
+  
+  a:hover {
+    background: #50e3c2;
+    color: #fff;
+    border-radius: 3px;
+
+    cursor: pointer;
+  }
+  
+  a span {
+    position: absolute;
+    display: block;
+  }
+  
+  a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #50e3c2);
+    animation: btn-anim1 5s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+  
+  a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #50e3c2);
+    animation: btn-anim2 5s linear infinite;
+    animation-delay: 0.25s;
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+  
+  a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #50e3c2);
+    animation: btn-anim3 5s linear infinite;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+  
+  a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #50e3c2);
+    animation: btn-anim4 5s linear infinite;
+    animation-delay: 0.75s;
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,
+    100% {
+      bottom: 100%;
+    }
+  }
+  
+  .btn_join{
+    font-size: 16px;
+    color: var(--color-primary);
+    background: #50e3c2;
+    border: none;
+}
+.btn_join:hover{
+
+    cursor: pointer;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:600px){
+    .container{
+        height: 75vh;
+    }
+    h1{
+        font-size: 45px;
+    }
+}
