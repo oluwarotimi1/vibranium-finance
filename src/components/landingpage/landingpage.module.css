@@ -20,6 +20,8 @@ h4{
 }
 .landing_btn{
 display: flex;
+justify-content: center;
+align-items: center;
 }
 
 /* BUY VGC BUTTON HERE */
@@ -36,7 +38,7 @@ display: flex;
     margin: 1rem;
   }
   .container a {
-    position: relative;
+    /* position: relative; */
     display: inline-block;
     align-items: center;
     padding: 10px 20px;
@@ -47,6 +49,9 @@ display: flex;
     overflow: hidden;
     transition: 0.5s;
     letter-spacing: 4px;
+  }
+  .btn_container a{
+    position: relative;
   }
   
   a:hover {
@@ -148,8 +153,10 @@ display: flex;
     border: none;
 }
 .btn_join:hover{
-
     cursor: pointer;
+}
+.newsletter_link{
+  /* border: 1px solid red; */
 }
 
 /* MEDIA QUERY */
@@ -160,6 +167,8 @@ display: flex;
     }
     h1{
         font-size: 45px;
+        padding-top: 5rem;
+
     }
     .landing_btn{
       flex-direction: column;

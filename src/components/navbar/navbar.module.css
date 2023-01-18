@@ -17,6 +17,7 @@ nav a {
 }
 h3 {
   color: var(--color-secondary);
+  font-size: 30px;
 }
 .slidernv{
     display: flex;
@@ -156,6 +157,9 @@ a span:nth-child(4) {
     .logo{
         margin: 1.5rem;
     }
+    h3{
+      font-size: 24px;
+    }
   .toggle_btn {
     font-size: 25px;
     display: block;
@@ -194,3 +198,8 @@ a span:nth-child(4) {
     margin-top: 90vh;
   }
 }
+@media (max-width: 600px){
+  h3{
+    font-size: 20px;
+  }
+} 
