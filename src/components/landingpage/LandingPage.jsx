@@ -26,7 +26,7 @@ const LandingPage = () => {
         </div>
         <div>
           <Link to="/newsletter" className={styles.newsletter_link}>
-            <button className={`${styles.btn_container} ${styles.btn_join}`}>
+            <button className={`btn ${styles.btn_join}`}>
               Join Newsletter
             </button>
           </Link>
