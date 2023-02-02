@@ -16,7 +16,7 @@ const LandingPage = () => {
       </h4>
       <div className={styles.landing_btn}>
         <div className={styles.btn_container}>
-          <a href="htttps://www.google.com">
+          <a href="https://www.google.com">
             <span></span>
             <span></span>
             <span></span>
